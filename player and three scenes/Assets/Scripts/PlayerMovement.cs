@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour {
 		
 		if (Input.GetKey (KeyCode.D)) {
 			transform.Translate (Vector2.right * speed);
+			//rigidbody2D.velocity = new Vector2(6, 0);		
 		}
 		if(Input.GetKey (KeyCode.A)){
 			transform.Translate (-Vector2.right * speed);
