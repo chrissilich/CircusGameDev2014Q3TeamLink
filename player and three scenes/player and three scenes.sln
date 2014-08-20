@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{72E29A13-FAC1-662A-23C9-42745F157855}") = "player and three scenes", "Assembly-CSharp.csproj", "{5975416C-AFCD-474B-23CA-7AE7D47727D1}"
 EndProject
+Project("{72E29A13-FAC1-662A-23C9-42745F157855}") = "player and three scenes", "Assembly-UnityScript.unityproj", "{B3599F58-2824-1A84-3FBF-2576F1D9C8BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,11 +15,15 @@ Global
 		{5975416C-AFCD-474B-23CA-7AE7D47727D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5975416C-AFCD-474B-23CA-7AE7D47727D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5975416C-AFCD-474B-23CA-7AE7D47727D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3599F58-2824-1A84-3FBF-2576F1D9C8BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3599F58-2824-1A84-3FBF-2576F1D9C8BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3599F58-2824-1A84-3FBF-2576F1D9C8BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3599F58-2824-1A84-3FBF-2576F1D9C8BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-														GlobalSection(MonoDevelopProperties) = preSolution
+																	GlobalSection(MonoDevelopProperties) = preSolution
 												GlobalSection(MonoDevelopProperties) = preSolution
 			GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
